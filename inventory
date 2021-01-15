@@ -1,0 +1,8 @@
+# These are the hosts for my Home Lab
+
+[TargetHosts]
+Target01 ansible_host=192.168.50.101 ansible_user=tux ansible_password=Password1
+Target02 ansible_host=192.168.50.102 ansible_user=tux ansible_password=Password1
+
+[MasterNode]
+Master ansible_host=192.168.50.100 ansible_user=tux ansible_password=Password1
