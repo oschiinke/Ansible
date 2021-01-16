@@ -1,7 +1,0 @@
----
-- hosts: all
-  become: yes
-  tasks:
-  - package:
-      name: apache2
-      state: installed
