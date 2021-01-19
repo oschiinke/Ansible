@@ -1,5 +1,5 @@
 ---
-- name: Starting VM hosts for Lab purposes
+- name: Switching off  VM hosts Target01 and Target02
   hosts: localhost
   tasks:
   - name: Powering down Target01
