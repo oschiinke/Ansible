@@ -2,12 +2,12 @@
 - name: Starting VM hosts for Lab purposes
   hosts: localhost
   tasks:
-  - name: This command will change the working directory to ~/Vagrant/Ubuntu01
+  - name: Powering down Target01
     shell:
       cmd: vagrant halt
       chdir: ~/Vagrant/Ubuntu01
   
-  - name: This command will change the working directory to ~/Vagrant/Ubuntu02
+  - name: Powering down Target02
     shell:
       cmd: vagrant halt
       chdir: ~/Vagrant/Ubuntu02
